@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v7.min.js" defer></script>
+    <link rel="stylesheet" href="datavizstyle.css">
+    <title>D3 chart by Tanja Bekker</title>
+</head>
+<body>
+<div class="container">
+    <!--barchart-->
+    <div class="chartbox">
+        <h2>Barchart</h2>
+        <div id="tooltip" class="hidden">
+            <p><strong>BarValue</strong></p>
+            <p><span id="value">100</span></p>
+        </div>
+        <svg id="barchart" width=400 height=400></svg>
+    </div>
+    
+    <!--bubblechart-->
+    <div class="chartbox">
+        <h2>Bubblechart</h2>
+        <div id="bubblechart" width=400 height=400></div>
+    </div>
+    
+    <!--piechart-->
+    <div class="chartbox">
+        <h2>Piechart</h2>
+        <svg id="piechart" width=400 height=400></svg>
+    </div>
+    
+    <!--donutchart-->
+    <div class="chartbox">
+        <h2>Donutchart</h2>
+        <svg id="donutchart" width=400 height=400></svg>
+    </div>  
+</div>
+
+<!--external js files here-->
+<script src="js/piechart_csv.js"defer></script>
+<script src="js/donutchart_csv.js"defer></script>
+<script src="js/bubblechart.js"defer></script>
+<script src="js/barchart_csv.js"defer></script>
+</body>
+</html>

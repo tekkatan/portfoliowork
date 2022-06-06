@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+    background-color: #202529;
+    color: beige;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+g{
+    margin-top: 50px;
+}
+.arc{
+    margin: 5px;
+}
+svg{
+    background-color: #202529;
+}
+.arc text{
+    font:15px sans-serif;
+    opacity: 0;
+    font-weight: bold;
+}
+.arc path{
+    stroke: #fff;
+}
+text.title{
+    font:20px sans-serif;
+    fill: beige;
+}
+.inside{
+    font-family: sans-serif;
+    font-size: 15px;
+    fill: white;
+    font-weight: bold;
+}
+.label{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.hoverpie{
+    z-index: 1;
+    align-items: flex-start;
+}
+
+.highlight{
+    fill:chocolate;
+}
+#tooltip{
+    position: absolute;
+    width:100px;
+    height: auto;
+    padding: 1px;
+    background-color: blanchedalmond;
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    border-radius:1px;
+    pointer-events: none;
+}
+#tooltip.hidden{
+    display: none;
+}
+#tooltip p{
+    margin:0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.glowaxis path{
+    stroke: aqua;
+}
+.glowaxis text{
+    fill: aquamarine;
+}
+.glowaxis line{
+    stroke: aquamarine;
+}
+text.glowaxis{
+    fill: beige;
+}
