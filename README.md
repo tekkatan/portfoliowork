@@ -6,7 +6,9 @@ languages:
 
 1. Java
 2. Javascript
-3. Python 
+   - Datavisualisation [example](https://tekkatan.github.io/portfolio/datavisuals.html)
+   - Animation
+4. Python 
 
 Note:
 - If you are using any of my code, please add a link to me/my website/ or **this** github repo. Thumbs up for the supporting devs 
@@ -326,6 +328,18 @@ public void doTask(CyclicBarrier c1, CyclicBarrier c2, CyclicBarrier c3, String 
 - [view code](https://github.com/tekkatan/portfoliowork/blob/main/javaprojects/cyclicbarrierexample/TrainManager.java "goto cyclicbarrier example of train")
 
 # Javascript Projects
+## Datavisualisation
+Using D3js
+Suitable for use in:
+- Java projects
+- Python projects
+- Js projects
+
+[example](https://tekkatan.github.io/portfolio/datavisuals.html)
+
+[view code](https://github.com/tekkatan/portfoliowork/tree/main/jsprojects)
+
+
 ## Drawing on canvas
 Two variations of interactively
 drawing on the canvas.
