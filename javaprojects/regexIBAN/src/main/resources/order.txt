@@ -1,0 +1,7 @@
+Invoice number: 1004589
+Client: Dasha Romanov
+IBAN: NL23ABNB9933445566
+Art.bought:, qty:,subtot:,
+- 89023;2;10,75;
+- 45662;1;1,95;
+- 12299;4;20,20;
