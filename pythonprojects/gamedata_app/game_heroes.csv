@@ -1,11 +1,11 @@
 gametitle,name,goodbad,gender,price
-Crash Bandicoot,Crash Bandicoot,good,male,25 euro
-Crash Bandicoot,Vicky,good,female,25 euro
-Kingdom Hearts,Sora,good,male,60 euro
-Kingdom Hearts,Kairi,good,female,60 euro
-Kingdom Hearts,Larxene,bad,female,60 euro
-Kingdom Hearts,Ventus,good,male,60 euro
-Kingdom Hearts,Lea,good,male,60 euro
-Kingdom Hearts,Namine,good,female,60 euro
-Kingdom Hearts,Marluxia,bad,male,60 euro
-Kingdom Hearts,Lea,good,male,60 euro
+Game1,Name1,good,male,25 euro
+Game1,Vicky,good,female,25 euro
+Game2,Sora,good,male,60 euro
+Game2,Kairi,good,female,60 euro
+Game2,Larxene,bad,female,60 euro
+Game2,Ventus,good,male,60 euro
+Game2,Lea,good,male,60 euro
+Game2,Namine,good,female,60 euro
+Game2,Marluxia,bad,male,60 euro
+Game2,Lea,good,male,60 euro
