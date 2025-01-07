@@ -386,6 +386,7 @@ public class BudgetArtWeek {
      * - sort op alfabetische volgorde
      * @return static final String[] met supermarktnamen 
      */
+    
     public final String[] addSupermarketNames(){
         // default supermarketNames getting added.
         BudgetArtWeekUtils utils=new BudgetArtWeekUtils();
@@ -393,54 +394,54 @@ public class BudgetArtWeek {
         ArrayList<String> s=new ArrayList<>();
         
         try{
-            s.add("Albert Heijn");
-            s.add("Aldi");
-            s.add("An-Da - Asian Foodmarket");
-            s.add("Amazing Oriental");
-            s.add("Boni");
-            s.add("Boon's Markt");
-            s.add("Budget Food");
-            s.add("Crisp");
-            s.add("Dagwinkel");
-            s.add("DekaMarkt");
-            s.add("De Pers");
-            s.add("Dirk");
-            s.add("EkoPlaza");
-            s.add("Garoodi Supermarkt");
-            s.add("Gümüs Market");
-            s.add("Hira");
-            s.add("Hoogvliet");
-            s.add("Ideal Market");
-            s.add("Jumbo");
-            s.add("Kardelen Plaza Overvecht");
-            s.add("Landmarkt");
-            s.add("Lidl");
-            s.add("Makro");
-            s.add("Mantra Food Store");
-            s.add("Marketim");
-            s.add("Marqt");
-            s.add("MCD");
-            s.add("Medine Market Utrecht");
-            s.add("Meltem Vers Expres");
-            s.add("Nettorama");
-            s.add("Odin");
-            s.add("OZDE Foodcenter B.V.");
-            s.add("Persepolis");
-            s.add("Picnic");
-            s.add("PLUS");
-            s.add("Poiesz");
-            s.add("Sligro");
-            s.add("Spar");
-            s.add("Sultan Food Center Overvecht");
-            s.add("Supermarkt Bereket");
-            s.add("Tanger Markt Utrecht");
-            s.add("Target Mart");
-            s.add("Toko Centraal Utrecht");
-            s.add("Toko Indradjaja");
-            s.add("Toko Goedendag");
-            s.add("Toko Tjiau Jiang");
-            s.add("Toko Tjiau Jiang Utecht");
-            s.add("Vomar");
+            s.add("Supermarkt 01");
+            s.add("Supermarkt 02");
+            s.add("Supermarkt 03");
+            s.add("Supermarkt 04");
+            s.add("Supermarkt 05");
+            s.add("Supermarkt 06");
+            s.add("Supermarkt 07");
+            s.add("Supermarkt 08");
+            s.add("Supermarkt 09");
+            s.add("Supermarkt 10");
+            s.add("Supermarkt 11");
+            s.add("Supermarkt 12");
+            s.add("Supermarkt 13");
+            s.add("Supermarkt 14");
+            s.add("Supermarkt 15");
+            s.add("Supermarkt 16");
+            s.add("Supermarkt 17");
+            s.add("Supermarkt 18");
+            s.add("Supermarkt 19");
+            s.add("Supermarkt 20");
+            s.add("Supermarkt 21");
+            s.add("Supermarkt 22");
+            s.add("Supermarkt 23");
+            s.add("Supermarkt 24");
+            s.add("Supermarkt 25");
+            s.add("Supermarkt 26");
+            s.add("Supermarkt 27");
+            s.add("Supermarkt 28");
+            s.add("Supermarkt 29");
+            s.add("Supermarkt 30");
+            s.add("Supermarkt 31");
+            s.add("Supermarkt 32");
+            s.add("Supermarkt 33");
+            s.add("Supermarkt 34");
+            s.add("Supermarkt 35");
+            s.add("Supermarkt 36");
+            s.add("Supermarkt 37");
+            s.add("Supermarkt 38");
+            s.add("Supermarkt 39");
+            s.add("Supermarkt 40");
+            s.add("Supermarkt 41");
+            s.add("Supermarkt 42");
+            s.add("Supermarkt 43");
+            s.add("Supermarkt 44");
+            s.add("Supermarkt 45");
+            s.add("Supermarkt 46");
+            s.add("Supermarkt 47");
+            s.add("Supermarkt 48");
             
             // sort on alfabetical order
             s.sort(String::compareToIgnoreCase);

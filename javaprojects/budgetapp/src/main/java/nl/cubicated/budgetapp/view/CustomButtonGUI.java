@@ -12,8 +12,8 @@ import java.awt.*;
  * Type: Klasse
  * Functionaliteit:
  * - Klasse extends BasicButtonUI en is gemaakt om het 
- *   design van de buttons aan te passen naar de stijl van de opdrachtgever
- *   GGZ Lister.
+ *   design van de buttons aan te passen naar de stijl van de opdrachtgever.
+ *   
  * 
  */
 public class CustomButtonGUI extends BasicButtonUI{
