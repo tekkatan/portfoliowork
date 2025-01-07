@@ -43,7 +43,7 @@ public class DutchIBANSearcher {
     }
     public static Path getAbsolutePath_FromRelativePath(String fileRelativePath){
         /*
-        Method for conversing a relative filepath into an absolute filepath
+        Method for converting a relative filepath into an absolute filepath
          */
         String file=new File(fileRelativePath).getAbsolutePath();
         return Paths.get(file);
