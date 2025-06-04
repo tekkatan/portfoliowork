@@ -16,21 +16,21 @@ Note:
 
 ### Usage - Creating and adding articles
 - The User starts at the screen below where he/she can fill in the fields.
-![StartScreen - BudgetApp](javaprojects/budgetapp/startscreenBudgetApp.png "StartScreen - BudgetApp")
+![StartScreen - BudgetApp](startscreenBudgetApp.png "StartScreen - BudgetApp")
 
 - The program will inform the User about any errors like in the examples below.
 - The first example is of informing the User about an error in a field when he or she
   wants to add an article to the grocerylist. The field itself will also have an "X" instead of a "V" until the error is fixed.
 
-![Error example 1 when clicking on the add button (voeg toe) - BudgetApp](javaprojects/budgetapp/errorExample1BudgetApp.png "Error example 1 when clicking on the add button (voeg toe) - BudgetApp")
+![Error example 1 when clicking on the add button (voeg toe) - BudgetApp](errorExample1BudgetApp.png "Error example 1 when clicking on the add button (voeg toe) - BudgetApp")
 - Error example of onhover hinting and icons
 
-![Error example 2 Icons and onhover hints - BudgetApp](javaprojects/budgetapp/errorExample2OnHoverBudgetApp.png "Error example 2 Icons and onhover hints - BudgetApp")
+![Error example 2 Icons and onhover hints - BudgetApp](errorExample2OnHoverBudgetApp.png "Error example 2 Icons and onhover hints - BudgetApp")
 
 - The program will inform the User about his/her planned expenses and whether there is
   room to save some money in the chosen weekyear.
 
-![Example of Filled Balance/grocery list - BudgetApp](javaprojects/budgetapp/exampleOfBalanceListBudgetApp.png "Filled Balance/grocery list - BudgetApp")
+![Example of Filled Balance/grocery list - BudgetApp](exampleOfBalanceListBudgetApp.png "Filled Balance/grocery list - BudgetApp")
 
 ### Usage - Deleting articles
 - The User can delete articles by first clicking on the row in the grocerylist and then 
@@ -45,9 +45,9 @@ Note:
   unreadable.
 
 - Overview of expenses for the chosen weekyear date
-![Example Grocerylist AllSupermarkets txt file - BudgetApp](javaprojects/budgetapp/WeekListAllSupermarketsExampleBudgetApp.png "Example Grocerylist AllSupermarkets txt file - BudgetApp")
+![Example Grocerylist AllSupermarkets txt file - BudgetApp](WeekListAllSupermarketsExampleBudgetApp.png "Example Grocerylist AllSupermarkets txt file - BudgetApp")
 
 - Detailed overview of expenses at a specific supermarket
-![Example Grocerylist txt file - BudgetApp](javaprojects/budgetapp/WeekListExampleBudgetApp.png "Example Grocerylist txt file - BudgetApp")
+![Example Grocerylist txt file - BudgetApp](WeekListExampleBudgetApp.png "Example Grocerylist txt file - BudgetApp")
 
 
