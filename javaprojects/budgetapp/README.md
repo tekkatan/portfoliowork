@@ -4,8 +4,7 @@ Note:
 - If you are using any of my code, please add a link to me/my website/ or **this** github repo. Thumbs up for the supporting devs 
 
 
-# Java Projects
-## [BudgetApp](https://github.com/tekkatan/portfoliowork/tree/main/javaprojects/budgetapp "goto java BudgetApp project")
+# BudgetApp
 
 ### Info
 - The BudgetApp is a CRUD App made with Java OpenJDK 8 and the Swing library
