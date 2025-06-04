@@ -10,7 +10,7 @@ Note:
 - This Project uses an
 Interface > enum > abstract class > executing class structure.
 - The executing class is
-OperationLambValues. This class contains junit testcases.
+OperationLambValues. This class contains JUnit testcases.
 - All test cases are tested for:
  1. double types
  2. arrays of ints
