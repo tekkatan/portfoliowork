@@ -8,7 +8,7 @@ Note:
 - If you are using any of my code, please add a link to me/my website/ or **this** github repo. Thumbs up for the supporting devs 
 
 
-# RegexIBAN RegexIBAN
+# RegexIBAN
 
 ### Info
 - A small simple program which searches a Dutch IBAN in a String or a txt File.
