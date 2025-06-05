@@ -49,7 +49,7 @@ private static final String createTableCities="CREATE TABLE GROCERYITEMS(\r\n"+
 ```
 ### Usage - Batch Insert of Data
 - Let's say that we have already filled the database with the following data:
-![ Groceriescrud app](javaprojects\groceriescrudapp\mysqldb1.png "Example Groceries in database - Groceriescrud app")
+![ Groceriescrud app](mysqldb1.png "Example Groceries in database - Groceriescrud app")
 - The User can insert a batch of data using the following code, which is a part of the code found 
   in BatchInsertPP.java:
 ```java
