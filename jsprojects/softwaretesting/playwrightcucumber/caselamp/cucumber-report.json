@@ -1,0 +1,79 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "light-switch;clicking-on-the-light",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Clicking on the light",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 220250400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigates to lightswitchpage",
+            "match": {
+              "location": "tests\\steps\\lightswitch.step.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129295398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I click the light switch",
+            "match": {
+              "location": "tests\\steps\\lightswitch.step.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80500698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see the light turned on at intensity 3",
+            "match": {
+              "location": "tests\\steps\\lightswitch.step.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79127898
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56078700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "light-switch",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Light switch",
+    "tags": [],
+    "uri": "tests\\features\\lightswitch.feature"
+  }
+]
