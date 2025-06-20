@@ -62,7 +62,7 @@ In the tables 3 to 10 you can find the corresponding physical testcases.
 
 ![Table 10: N-switch 2 physical testcase of path S3-3;S2-4;S1-1](Phtestcase8.png "N-switch 2 physical testcase of path S3-3;S2-4;S1-1")
 
-### Acceptance tests with Playwright (Acceptation tests using Playwright)
+### Acceptance tests with Playwright (Acceptation tests using JavaScript,  Playwright and Cucumber)
 
 - The actuals tests can be found in the folder: caselamp.
 - Because this is an ongoing project not all the features and steps have been added yet.
