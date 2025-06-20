@@ -34,7 +34,7 @@ In table 1 I’ve made an overview of the different states and events. Hereby th
 Test situations
 Now that we’ve identified the possible states of the lamp device we can now identify the test situations. In table 2 you can find the possible paths based upon 0-switch,1-switch and 2-switch. 
 
-![Table 2: Test situations paths by 0-switch, 1-switch and 2-switch - Lightswitch](StatetransitionDiagramLS2.png "Test situations paths by 0-switch, 1-switch and 2-switch- Lightswitch")
+![Table 2: Test situations paths by 0-switch, 1-switch and 2-switch - Lightswitch](Testsituations.png "Test situations paths by 0-switch, 1-switch and 2-switch- Lightswitch")
 
 In order to make the appropiate physical testcases I’ve made a testtree which illustrates a clean overview of the possible paths.
 
@@ -58,7 +58,7 @@ In the tables 3 to 10 you can find the corresponding physical testcases.
 
 ![Table 9: N-switch 2 physical testcase of path S3-3;S2-2;3-3](Phtestcase7.png "N-switch 2 physical testcase of path S3-3;S2-2;3-3")
 
-![Table 10: N-switch 2 physical testcase of path S3-3;S2-4;S1-1](Phtestcase7.png "N-switch 2 physical testcase of path S3-3;S2-4;S1-1")
+![Table 10: N-switch 2 physical testcase of path S3-3;S2-4;S1-1](Phtestcase8.png "N-switch 2 physical testcase of path S3-3;S2-4;S1-1")
 
 ### Acceptance tests with Playwright (Acceptation tests using Playwright)
 
