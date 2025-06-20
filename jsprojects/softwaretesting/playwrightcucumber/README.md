@@ -62,12 +62,114 @@ In the tables 3 to 10 you can find the corresponding physical testcases.
 
 ### Acceptance tests with Playwright (Acceptation tests using Playwright)
 
-The actuals tests can be found in the folder: caselamp.
+- The actuals tests can be found in the folder: caselamp.
+- Because this is an ongoing project not all the features and steps have been added yet.
 
-Files: 
-lightswitch feature   - Tests switching a light on.
-LampPage.spec.js  - Page Object Model with constructor and common used functions.
-lightswitch.step.js    - Step definition file.
+### lightswitch feature   
+- Tests switching a light on.
+
+```gherkin
+Feature: Light switch 
+Scenario: Clicking on the light 
+    Given User navigates to lightswitchpage
+    When I click the light switch
+    Then I should see the light turned on at intensity 3
+
+```
+
+### LampPage.spec.js  
+- Page Object Model with constructor and common used functions.
+
+```javascript
+const {chromium, expect}=require("@playwright/test");
+exports.LampPage=class LampPage{
+    // Constructor for Page Object Model of the lamppage
+    constructor(page,expect){
+        this.page=page;
+        this.light=this.page.locator("#light");
+        this.lightSwitch=this.page.locator("#light-switch");
+    }
+
+    // Async function for goto page of lightswitch application
+    async goToLampPage(){
+        await this.page.goto("http://127.0.0.1:3000/index.html");
+    }
+
+    // Async function to click the lightswitch
+    async clickLightSwitch(){
+        await this.lightSwitch.click();
+    }
+
+    // Async function to verify the expected value of the light with the actual value
+    async verifyLight_3_is_on(content){
+        await expect(content).toEqual("light-three");
+        await expect(this.light).toContainClass(content);
+    }
+    // Async function for taking screenshots and save them in a custom folder with timestamp
+    async takeScreenshot(textStep){
+        const timestamp=new Date().toISOString().replace(/[:.]/g,'-');
+        const screenShotPath=`./tests/tmp/screenshots/${textStep}_${timestamp}.png`;
+        await this.page.screenshot({path:screenShotPath});
+    }
+};
+
+```
+
+### lightswitch.step.js    
+- Step definition file
+
+```javascript
+const{Given,When, Then,Before, BeforeStep, BeforeAll, After, AfterAll,AfterStep}=require("@cucumber/cucumber");
+const{chromium,context}=require("@playwright/test");
+const{LampPage}=require("./LampPage.spec");
+
+let browser
+let page
+let lampPage;
+
+Before(async()=> {
+     console.log("Starting browser")
+     browser=await chromium.launch({headless:true});
+     const context=await browser.newContext();
+     page=await context.newPage();
+     lampPage=new LampPage(page);
+})
+BeforeStep(async()=> {
+     console.log("Before: Start step")
+})
+BeforeAll(async()=> {
+     // suite level
+     console.log("TestSuite Lightswitch - Acceptance Test - Start")
+})
+After(async()=> {
+     // close actions
+     console.log("Closing page and browser")
+     await page.close()
+     await browser.close();
+})
+AfterStep(async()=> {
+     console.log("After: Take screenshot of current step")
+     const AfterString="After"
+     await lampPage.takeScreenshot(AfterString);
+})
+AfterAll(async()=> {
+     console.log("TestSuite Lightswitch - Acceptance Test - End")
+})
+
+Given('User navigates to lightswitchpage', async function(){
+     console.log("Given: User navigates to lightswitchpage")
+     await lampPage.goToLampPage();
+});
+When('I click the light switch',async function(){
+     console.log("When: I click the light switch")
+     lampPage.clickLightSwitch();
+});
+Then('I should see the light turned on at intensity 3',async function(){
+     console.log('Then: I should see the light turned on at intensity 3')
+     await lampPage.verifyLight_3_is_on("light-three");   
+});
+
+```
 
 The corresponding webapplication can be found in the map: caselamp app
 
