@@ -10,6 +10,8 @@ Note:
 how the technique behind this little device works.
 I wanted to analyse the state transitions of this lamp and which paths it can take to get to 
 the desired “light brightness”. First off I’ve made a simple state transition diagram of the lamp.
+- After the test analysis I've chosen JavaScript, Playwright and Cucumber to make the 
+  corresponding acceptance tests.
 
 ### State transition diagram
 ![Figure 1: State transition diagram - Lightswitch](StatetransitionDiagramLS.png "State transition diagram - Lightswitch")
